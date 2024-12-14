@@ -29,7 +29,7 @@
 
 
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-24 mb-4">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:mx-24 mb-4 m-4">
     <div class="border p-4 rounded shadow">
         <h3 class="text-lg font-semibold">E-Wheels Alnabru</h3>
         <p>Professor Birkelands vei 34 B, 1081 Oslo</p>

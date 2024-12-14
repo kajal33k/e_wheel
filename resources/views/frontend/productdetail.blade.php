@@ -9,8 +9,8 @@
         <!-- Main Product Image -->
         <div class="photo-main relative">
           <div class="controls absolute top-4 right-4 flex space-x-4">
-            <i class="material-icons text-white bg-black bg-opacity-50 p-2 rounded-full cursor-pointer" onclick="shareProduct()">share</i>
-            <i class="material-icons text-white bg-black bg-opacity-50 p-2 rounded-full cursor-pointer" onclick="toggleFavorite()">favorite_border</i>
+            <i class="ri-share-line text-white bg-black bg-opacity-50 p-2 rounded-full cursor-pointer" onclick="shareProduct()"></i>
+            <i class="ri-heart-3-line text-white bg-black bg-opacity-50 p-2 rounded-full cursor-pointer" onclick="toggleFavorite()"></i>
           </div>
           <img id="main-image" src="{{asset('assets/image/product1.jpeg')}}" alt="Momas Flash Bike Helmet" class="w-full h-[500px] object-cover rounded-lg shadow-lg">
         </div>
@@ -73,11 +73,118 @@
         </ul>
       </div>
       
-      <form action="#" method="POST">
+      {{-- <form action="#" method="POST">
         @csrf
         <input type="hidden" name="product_id" value="1"> <!-- You can replace with dynamic product ID -->
-        <button type="submit" class="buy--btn w-full py-3 border border-blue-600 text-black font-semibold rounded-lg hover:border-blue-700 transition-all"><a href="{{route('orderdetail')}}">ADD TO CART</a></button>
-      </form>
+        <button type="submit" class="buy--btn w-full py-3 border border-blue-600 text-black font-semibold rounded-lg hover:border-blue-700 transition-all">Book Now</button>
+      </form> --}}
+ <!-- Book Now Button -->
+ <button
+ onclick="toggleModal(true)"
+ class="px-6 py-3 text-black bg-[#75CDD8] hover:bg-[#75CDD8] rounded-md shadow-md transition"
+>
+ Book Now
+</button>
+
+<!-- Modal -->
+<div
+ id="booking-modal"
+ class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center"
+>
+ <div class="bg-white w-full max-w-lg p-6 rounded-lg shadow-lg relative">
+   <button
+     onclick="toggleModal(false)"
+     class="absolute top-3 right-3 text-gray-400 hover:text-gray-600"
+   >
+     &times;
+   </button>
+
+   <h2 class="text-2xl font-semibold text-gray-700 mb-4">Book Your E-Wheel</h2>
+
+   <form class="space-y-4">
+     <!-- Full Name -->
+     <div>
+       <label for="fullName" class="block text-sm font-medium text-gray-600">
+         Full Name
+       </label>
+       <input
+         type="text"
+         id="fullName"
+         placeholder="Enter your full name"
+         class="mt-1 block w-full px-4 py-2 border border-[#75CDD8] rounded-md shadow-sm focus:ring-[#75CDD8] focus:border-[#75CDD8]"
+         required
+       />
+     </div>
+
+     <!-- Email Address -->
+     <div>
+       <label for="email" class="block text-sm font-medium text-gray-600">
+         Email Address
+       </label>
+       <input
+         type="email"
+         id="email"
+         placeholder="Enter your email"
+         class="mt-1 block w-full px-4 py-2 border border-[#75CDD8] rounded-md shadow-sm focus:ring-[#75CDD8] focus:border-[#75CDD8]"
+         required
+       />
+     </div>
+
+     <!-- Phone Number -->
+     <div>
+       <label for="phone" class="block text-sm font-medium text-gray-600">
+         Phone Number
+       </label>
+       <input
+         type="tel"
+         id="phone"
+         placeholder="Enter your phone number"
+         class="mt-1 block w-full px-4 py-2 border border-[#75CDD8] rounded-md shadow-sm focus:ring-[#75CDD8] focus:border-[#75CDD8]"
+         required
+       />
+     </div>
+
+     <!-- Select Model -->
+     <div>
+       <label for="model" class="block text-sm font-medium text-gray-600">
+         Select Model
+       </label>
+       <select
+         id="model"
+         class="mt-1 block w-full px-4 py-2 border border-[#75CDD8] rounded-md shadow-sm focus:ring-[#75CDD8] focus:border-[#75CDD8]"
+         required
+       >
+         <option value="">Select an option</option>
+         <option value="basic">Basic Model</option>
+         <option value="premium">Premium Model</option>
+         <option value="pro">Pro Model</option>
+       </select>
+     </div>
+
+     <!-- Booking Date -->
+     <div>
+       <label for="date" class="block text-sm font-medium text-gray-600">
+         Booking Date
+       </label>
+       <input
+         type="date"
+         id="date"
+         class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-[#75CDD8] focus:border-[#75CDD8]"
+         required
+       />
+     </div>
+
+     <!-- Submit Button -->
+     <button
+       type="submit"
+       class="w-full px-6 py-3 border border-[#75CDD8] text-[#75CDD8] font-medium rounded-md shadow-md  transition"
+     >
+       Submit Booking
+     </button>
+   </form>
+ </div>
+</div>
+
     </div>
   </div>
 
@@ -135,6 +242,12 @@
       shippingInfo.textContent = 'Not available in your country yet? Contact us';
     }
   });
+</script>
+<script>
+  function toggleModal(show) {
+    const modal = document.getElementById("booking-modal");
+    modal.classList.toggle("hidden", !show);
+  }
 </script>
 
 @endsection

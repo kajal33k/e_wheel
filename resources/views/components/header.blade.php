@@ -55,13 +55,13 @@
     <!-- Mobile Menu -->
     <div class="md:hidden hidden" id="mobile-menu">
       <ul class="space-y-4 px-4 py-2 bg-gray-100">
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">e-scooter</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">e-unicycle</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">e-bike</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">e-wheelchair</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">Accessories</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">Purchase</a></li>
-        <li><a href="#" class="block text-gray-800 hover:text-[#75CDD8] ">Contact</a></li>
+        <li><a href="{{route('e_scooter')}}" class="block text-gray-800 hover:text-[#75CDD8] ">e-scooter</a></li>
+        <li><a href="{{route('unicycle')}}" class="block text-gray-800 hover:text-[#75CDD8] ">e-unicycle</a></li>
+        <li><a href="{{route('ebike')}}" class="block text-gray-800 hover:text-[#75CDD8] ">e-bike</a></li>
+        <li><a href="{{route('e_wheelchair')}}" class="block text-gray-800 hover:text-[#75CDD8] ">e-wheelchair</a></li>
+        <li><a href="{{route('accessories')}}" class="block text-gray-800 hover:text-[#75CDD8] ">Accessories</a></li>
+        <li><a href="{{route('retail')}}" class="block text-gray-800 hover:text-[#75CDD8] ">Retail</a></li>
+        <li><a href="{{route('contact')}}" class="block text-gray-800 hover:text-[#75CDD8] ">Contact</a></li>
       </ul>
     </div>
   </nav>

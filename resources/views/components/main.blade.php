@@ -12,7 +12,7 @@
     rel="stylesheet"
 />
 </head>
-<body>
+<body class="bg-white">
     @include('components.header')
 
     <div class="mx-0">

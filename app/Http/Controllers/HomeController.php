@@ -48,8 +48,5 @@ class HomeController extends Controller
     {
         return view('frontend.productdetail');
     }
-    public function orderdetail()
-    {
-        return view('frontend.oderdetailpage');
-    }
+  
 }

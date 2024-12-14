@@ -40,13 +40,14 @@
     </div>
     
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-4 ">
         <!-- Example Product Card -->
         <div class="bg-white shadow rounded overflow-hidden">
             <img src="{{asset('assets/image/e-scooter.jpeg')}}" alt="Product" class="w-full">
             <div class="p-4">
                 <h3 class="font-bold text-lg">Momas Balance+</h3>
                 <p class="text-gray-600">From €2,191.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
 
@@ -55,6 +56,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Hvitserk</h3>
                 <p class="text-gray-600">€3,181.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
         <div class="bg-white shadow rounded overflow-hidden">
@@ -62,6 +64,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Embla</h3>
                 <p class="text-gray-600">€4,419.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
 
@@ -70,6 +73,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Ragnar</h3>
                 <p class="text-gray-600">€4,419.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
 
@@ -79,6 +83,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Momas Balance+</h3>
                 <p class="text-gray-600">From €2,191.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
 
@@ -87,6 +92,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Hvitserk</h3>
                 <p class="text-gray-600">€3,181.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
         <div class="bg-white shadow rounded overflow-hidden">
@@ -94,6 +100,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Embla</h3>
                 <p class="text-gray-600">€4,419.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
 
@@ -102,6 +109,7 @@
             <div class="p-4">
                 <h3 class="font-bold text-lg">Fosna Ragnar</h3>
                 <p class="text-gray-600">€4,419.00 EUR</p>
+                <a href="{{route('productdetail')}}">  <button class="border border-[#75CDD8] m-2 text-center p-2 text-[#75CDD8]">View details</button></a>
             </div>
         </div>
         <!-- Add more products as needed -->

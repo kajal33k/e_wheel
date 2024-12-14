@@ -13,4 +13,3 @@ Route::get('/accessories',[HomeController::class, 'accessories'])->name('accesso
 Route::get('/retail', [HomeController::class, 'retail'])->name('retail');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/productdetail', [HomeController::class, 'productdetail'])->name('productdetail');
-Route::get('/orderdetail', [HomeController::class, 'orderdetail'])->name('orderdetail');

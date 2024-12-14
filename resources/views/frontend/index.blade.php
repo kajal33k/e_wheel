@@ -34,7 +34,7 @@
                       Explore our test-winning selection of electric bikes and scooters.
                   </p>
                   <a href="#" class="inline-block border border-white text-white font-semibold py-3 px-6 hover:bg-black hover:text-white transition-all">
-                      Shop Now
+                      Book Now
                   </a>
               </div>
           </div>
@@ -146,7 +146,7 @@
         ] as $item)
         <div class="bg-gray-100 lg:p-6 p-1 text-center rounded-lg hover:shadow-lg transition">
             <img src="{{ asset('assets/image/' . $item['image']) }}" alt="{{ $item['title'] }}" class="w-20 h-20 mx-auto mb-4">
-            <a href="#" class="text-sm font-medium text-gray-700 inline-flex items-center hover:text-green-500 transition">
+            <a href="#" class="text-sm font-medium text-gray-700 inline-flex items-center hover:text-[#75CDD8] transition">
                 {{ $item['title'] }} <i class="ri-arrow-right-line ml-1"></i>
             </a>
         </div>
@@ -155,9 +155,9 @@
 </div>
 
 {{-- Product Section --}}
-<div class="container mx-auto px-6 lg:px-24 py-12 bg-[#F3F4F6]">
+<div class="container bg-[#F3F4F6] max-w-full">
     <!-- Header Section -->
-    <div class="text-center mb-16">
+    <div class="text-center mb-16 ">
         <div class="flex items-center justify-center mb-4">
             <img src="{{ asset('assets/image/e-bike.png') }}" alt="E-Bike" class="w-20 h-20 rounded-full mr-4">
             <h1 class="text-2xl lg:text-3xl font-extrabold text-black">E-Scooter | E-Wheels</h1>
@@ -168,9 +168,9 @@
     </div>
 
     <!-- Products Section -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mx-2 md:mx-20 lg:mx-24 ">
         <!-- Product Card -->
-        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+        <div class="bg-white md:p-6 m-4 p-4 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
             <div class="relative">
                 <img src="{{ asset('assets/image/eWheels.jpg') }}" alt="E-Scooter Model" class="w-full h-52 object-cover object-center rounded-lg">
                 <div class="absolute top-4 right-4 bg-white text-xs font-bold px-3 py-2 rounded-full border border-gray-300">
@@ -178,6 +178,7 @@
                 </div>
             </div>
             <h2 class="text-2xl font-bold text-black mt-6">E-Scooter Model</h2>
+            <p class="text-xl font-medium text-black">sub titile</p>
             <p class="text-lg text-gray-700 mt-4">
                 Price: <span class="font-semibold text-[#75CDD8]">$299.99</span>
             </p>
@@ -190,12 +191,12 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Add to Cart
+                Book Now
             </button>
         </div>
           
           <!-- Product Card -->
-          <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <div class="bg-white md:p-6 m-4 p-4 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
             <div class="relative">
                 <img src="{{ asset('assets/image/eWheels.jpg') }}" alt="E-Scooter Model" class="w-full h-52 object-cover object-center rounded-lg">
                 <div class="absolute top-4 right-4 bg-white text-xs font-bold px-3 py-2 rounded-full border border-gray-300">
@@ -203,6 +204,7 @@
                 </div>
             </div>
             <h2 class="text-2xl font-bold text-black mt-6">E-Scooter Model</h2>
+            <p class="text-xl font-medium text-black">sub titile</p>
             <p class="text-lg text-gray-700 mt-4">
                 Price: <span class="font-semibold text-[#75CDD8]">$299.99</span>
             </p>
@@ -215,11 +217,11 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Add to Cart
+                Book Now
             </button>
         </div>
           <!-- Product Card -->
-          <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <div class="bg-white md:p-6 m-4 p-4 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
             <div class="relative">
                 <img src="{{ asset('assets/image/eWheels.jpg') }}" alt="E-Scooter Model" class="w-full h-52 object-cover object-center rounded-lg">
                 <div class="absolute top-4 right-4 bg-white text-xs font-bold px-3 py-2 rounded-full border border-gray-300">
@@ -227,6 +229,7 @@
                 </div>
             </div>
             <h2 class="text-2xl font-bold text-black mt-6">E-Scooter Model</h2>
+            <p class="text-xl font-medium text-black">sub titile</p>
             <p class="text-lg text-gray-700 mt-4">
                 Price: <span class="font-semibold text-[#75CDD8]">$299.99</span>
             </p>
@@ -239,11 +242,11 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Add to Cart
+                Book Now
             </button>
         </div>
           <!-- Product Card -->
-          <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <div class="bg-white md:p-6 m-4 p-4 rounded-2xl shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
             <div class="relative">
                 <img src="{{ asset('assets/image/eWheels.jpg') }}" alt="E-Scooter Model" class="w-full h-52 object-cover object-center rounded-lg">
                 <div class="absolute top-4 right-4 bg-white text-xs font-bold px-3 py-2 rounded-full border border-gray-300">
@@ -251,6 +254,7 @@
                 </div>
             </div>
             <h2 class="text-2xl font-bold text-black mt-6">E-Scooter Model</h2>
+            <p class="text-xl font-medium text-black">sub titile</p>
             <p class="text-lg text-gray-700 mt-4">
                 Price: <span class="font-semibold text-[#75CDD8]">$299.99</span>
             </p>
@@ -263,28 +267,28 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Add to Cart
+                Book Now
             </button>
         </div>
     </div>
 
     <!-- See More Button -->
-    <div class="text-center mt-16">
+    {{-- <div class="text-center mt-16">
         <a href="#" class="inline-block text-black py-3 px-10 text-lg font-medium transition">
             See More
         </a>
-    </div>
+    </div> --}}
 
     <!-- Decorative SVG Divider -->
-    <div class="relative -mt-20">
+    {{-- <div class="relative -mt-20">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" aria-hidden="true">
             <path fill="#ffffff" d="M0,160L40,149.3C80,139,160,117,240,128C320,139,400,181,480,176C560,171,640,117,720,112C800,107,880,149,960,160C1040,171,1120,149,1200,133.3C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
         </svg>
-    </div>
+    </div> --}}
 </div>
 
 {{-- Made for Nordic conditions --}}
-<div class="relative -mt-12">
+<div class="relative mt-8">
     <img src="{{ asset('assets/image/background') }}" 
          alt="Momas Electric Bikes Background" 
          class="w-full h-[60vh] object-cover">
@@ -388,50 +392,60 @@
     </div>
   </section>
   {{-- contact --}}
-  <section class="py-12 bg-gray-50">
+  {{-- <section class="py-12 bg-gray-50">
     <div class="container mx-auto px-4">
-      <div class="bg-white p-6">
+      <div class="bg-white shadow-md rounded-lg p-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <!-- Map -->
+          <!-- Map Section -->
           <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7750.13589289016!2d100.588101!3d13.774776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fa9deab904f%3A0x12df2b85cc4e2efd!2zZVdoZWVscyDguKPguLHguIrguJTguLLguKDguLTguYDguKnguIE!5e0!3m2!1sen!2sth!4v1733982193495!5m2!1sen!2sth"
               width="100%"
-              height="100%"
+              height="350"
               style="border:0;"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              class="rounded-lg"
+              class="rounded-lg shadow-sm"
+              aria-label="Google Maps location of eWheels Ratchada-Huai Khwang"
             ></iframe>
           </div>
-          <!-- Contact Information -->
+  
+          <!-- Contact Information Section -->
           <div class="flex flex-col justify-center">
-            <h3 class="text-2xl font-bold text-blue-600 mb-4">Contact Us</h3>
-            <p class="text-gray-700">
-              <strong>eWheels Ratchada-Huai Khwang</strong><br>
-              Ratchada – Bangkok Head Office<br>
-              Meng Jai Intersection, Meng Jai<br>
-            </p>
-            <p class="text-gray-700 mt-2">
-              <strong>Phone:</strong> <a href="tel:0865544996" class="text-blue-600 hover:underline">086-5544-996</a><br>
-              <strong>Line ID:</strong> <a href="https://line.me/R/ti/p/@ew01" class="text-blue-600 hover:underline">@ew01</a><br>
-            </p>
-            <p class="text-gray-700 mt-2">
-              <strong>Open:</strong> 9:00 AM – 6:00 PM
-            </p>
+            <h3 class="text-2xl font-bold text-[#75CDD8] mb-4">Contact Us</h3>
+  
+            <address class="not-italic text-gray-700 space-y-2">
+              <p>
+                <strong>eWheels Ratchada-Huai Khwang</strong><br>
+                Ratchada – Bangkok Head Office<br>
+                Meng Jai Intersection, Meng Jai
+              </p>
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:0865544996" class="text-[#75CDD8] hover:underline">086-5544-996</a>
+              </p>
+              <p>
+                <strong>Line ID:</strong>
+                <a href="https://line.me/R/ti/p/@ew01" target="_blank" rel="noopener noreferrer" class="text-[#75CDD8] hover:underline">@ew01</a>
+              </p>
+              <p>
+                <strong>Open:</strong> 9:00 AM – 6:00 PM
+              </p>
+            </address>
+  
             <!-- Social Media Icons -->
             <div class="mt-4 flex space-x-4">
-              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-600">
+              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-600" aria-label="Facebook">
                 <i class="ri-facebook-fill text-2xl"></i>
               </a>
-              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-400">
+              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-400" aria-label="Twitter">
                 <i class="ri-twitter-fill text-2xl"></i>
               </a>
-              <a href="#" target="_blank" class="text-gray-700 hover:text-pink-600">
+              <a href="#" target="_blank" class="text-gray-700 hover:text-pink-600" aria-label="Instagram">
                 <i class="ri-instagram-fill text-2xl"></i>
               </a>
-              <a href="#" target="_blank" class="text-gray-700 hover:text-red-600">
+              <a href="#" target="_blank" class="text-gray-700 hover:text-red-600" aria-label="YouTube">
                 <i class="ri-youtube-fill text-2xl"></i>
               </a>
             </div>
@@ -439,6 +453,64 @@
         </div>
       </div>
     </div>
-</section>
+  </section> --}}
+  <section id="contact" class="bg-gray-100 py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-[#3f7177] mb-8">Contact Us</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[white]">
+        <!-- Office Information -->
+        <div class=" rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-[#75CDD8] mb-4">eWheels Ratchada-Huai Khwang</h3>
+          <p class="text-gray-600">
+            <strong>Address:</strong><br>
+            Ratchada – Bangkok Head Office<br>
+            Meng Jai Intersection, Meng Jai
+          </p>
+          <p class="mt-4 text-gray-600">
+            <strong>Phone:</strong> <a href="tel:0865544996" class="text-[#75CDD8] hover:underline">086-5544-996</a>
+          </p>
+          <p class="mt-2 text-gray-600">
+            <strong>Line ID:</strong> <a href="https://line.me/R/ti/p/%40ew01" target="_blank" class="text-[#75CDD8] hover:underline">@ew01</a>
+          </p>
+          <p class="mt-4 text-gray-600">
+            <strong>Opening Hours:</strong><br> 
+            9:00 AM – 6:00 PM
+          </p>
+
+            <!-- Social Media Icons -->
+            <div class="mt-4 flex space-x-4">
+              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-600" aria-label="Facebook">
+                <i class="ri-facebook-fill text-2xl"></i>
+              </a>
+              <a href="#" target="_blank" class="text-gray-700 hover:text-blue-400" aria-label="Twitter">
+                <i class="ri-twitter-fill text-2xl"></i>
+              </a>
+              <a href="#" target="_blank" class="text-gray-700 hover:text-pink-600" aria-label="Instagram">
+                <i class="ri-instagram-fill text-2xl"></i>
+              </a>
+              <a href="#" target="_blank" class="text-gray-700 hover:text-red-600" aria-label="YouTube">
+                <i class="ri-youtube-fill text-2xl"></i>
+              </a>
+            </div>
+        </div>
+  
+      {{-- map --}}
+        <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7750.13589289016!2d100.588101!3d13.774776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fa9deab904f%3A0x12df2b85cc4e2efd!2zZVdoZWVscyDguKPguLHguIrguJTguLLguKDguLTguYDguKnguIE!5e0!3m2!1sen!2sth!4v1733982193495!5m2!1sen!2sth"
+              width="100%"
+              height="350"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="rounded-lg shadow-sm"
+              aria-label="Google Maps location of eWheels Ratchada-Huai Khwang"
+            ></iframe>
+          </div>
+      </div>
+    </div>
+  </section>
+  
 
 @endsection
