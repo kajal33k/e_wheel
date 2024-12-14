@@ -23,9 +23,9 @@
                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
             </button>
-            <ul tabindex="0" class="absolute left-0 mt-2 hidden dropdown-content menu bg-base-100 rounded-box z-30 w-52 p-2 shadow ">
-              <li><a href="#">Robo e-Wheelschair</a></li>
-              <li><a href="#">Robo e-wheelschair2</a></li>
+            <ul tabindex="0" class="absolute left-0 mt-2 hidden dropdown-content menu bg-base-100 rounded-box z-30 w-52 p-2 shadow bg-white">
+              <li><a href="{{route('e_wheelchair')}}">Robo e-Wheelschair</a></li>
+              <li><a href="{{route('e_wheelchair')}}">Robo e-wheelschair2</a></li>
             </ul>
         </div>
         <div class="relative dropdown">
@@ -35,7 +35,7 @@
                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
             </button>
-            <ul tabindex="0" class="absolute left-0 mt-2 hidden dropdown-content menu bg-base-100 rounded-box z-30 w-52 p-2 shadow">
+            <ul tabindex="0" class="absolute left-0 mt-2 hidden bg-white dropdown-content menu bg-base-100 rounded-box z-30 w-52 p-2 shadow">
               <li><a href="{{route('unicycle')}}">e-unicycle</a></li>
               <li><a href="{{route('ebike')}}">e-bike</a></li>
             </ul>

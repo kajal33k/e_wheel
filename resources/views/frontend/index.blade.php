@@ -28,10 +28,11 @@
           <img src="{{ asset('assets/image/banner.jpg') }}" alt="Green Mobility Banner" class="w-full h-[500px] object-cover">
           <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
               <div class="text-center text-white px-6">
-                  <h1 class="text-4xl font-bold mb-4">Unleash the Power of Green Mobility!</h1>
+                  <h1 class="text-4xl font-bold mb-4">Discover our range of electric Wheels</h1>
                   <p class="text-lg mb-6">
-                      E-Wheels is the biggest retailer of small electric vehicles in Scandinavia. <br>
-                      Explore our test-winning selection of electric bikes and scooters.
+                    E-Wheels is the biggest retailer of small electric vehicles in Scandinavia.
+                   <br> Explore our test-winning selection of electric bikes and scooters.
+                    
                   </p>
                   <a href="#" class="inline-block border border-white text-white font-semibold py-3 px-6 hover:bg-black hover:text-white transition-all">
                       Book Now
