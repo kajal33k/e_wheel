@@ -34,7 +34,7 @@
                    <br> Explore our test-winning selection of electric bikes and scooters.
                     
                   </p>
-                  <a href="#" class="inline-block border border-white text-white font-semibold py-3 px-6 hover:bg-black hover:text-white transition-all">
+                  <a href="{{route('productdetail')}}" class="inline-block border border-white text-white font-semibold py-3 px-6 hover:bg-black hover:text-white transition-all">
                       Book Now
                   </a>
               </div>
@@ -147,7 +147,7 @@
         ] as $item)
         <div class="bg-gray-100 lg:p-6 p-1 text-center rounded-lg hover:shadow-lg transition">
             <img src="{{ asset('assets/image/' . $item['image']) }}" alt="{{ $item['title'] }}" class="w-20 h-20 mx-auto mb-4">
-            <a href="#" class="text-sm font-medium text-gray-700 inline-flex items-center hover:text-[#75CDD8] transition">
+            <a href="{{route('accessories')}}" class="text-sm font-medium text-gray-700 inline-flex items-center hover:text-[#75CDD8] transition">
                 {{ $item['title'] }} <i class="ri-arrow-right-line ml-1"></i>
             </a>
         </div>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Book Now
+              <a href="{{route('productdetail')}}">  Book Now</a>
             </button>
         </div>
           
@@ -218,7 +218,7 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Book Now
+              <a href="{{route('productdetail')}}">  Book Now</a>
             </button>
         </div>
           <!-- Product Card -->
@@ -243,7 +243,7 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Book Now
+              <a href="{{route('productdetail')}}">  Book Now</a>
             </button>
         </div>
           <!-- Product Card -->
@@ -268,7 +268,7 @@
                 </div>
             </div>
             <button class="mt-6 w-full border border-[#75CDD8] text-[#75CDD8] font-bold py-3  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                Book Now
+              <a href="{{route('productdetail')}}">  Book Now</a>
             </button>
         </div>
     </div>
@@ -301,7 +301,7 @@
             With top-notch quality and unbeatable prices, Momas are designed for Nordic conditions. From city streets to rugged terrain, join over 55,000 satisfied riders and experience the thrill of Momas electric bikes today!
         </p>
         <button class="bg-white text-black py-3 px-8 rounded-md text-lg font-medium hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition duration-300">
-            Shop Momas
+          <a href="{{route('productdetail')}}">  Book Now</a>
         </button>
     </div>
 </div>
